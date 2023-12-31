@@ -46,6 +46,31 @@ div {
     background-color: #494A4F;
     color: yellow;
     border-radius: 15px;
+    border: none;
+    user-select: none;
+}
+
+.button:hover {
+
+    background-color: #5a5b61;
+}
+
+#restart {
+
+    font-size: 30px;
+    height: 125px;
+    width: 175px;
+    background-color: #494A4F;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    margin-top: 20px;    
+    user-select: none;
+}
+
+#restart:hover {
+
+    background-color: #5a5b61;
 }
 
 .footer {

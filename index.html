@@ -7,46 +7,42 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit&display=swap">
-    <script src="javascript.js"></script>
+    <script src="javascript.js" defer></script>
 </head>
 
 <body>  
 
-    <div class="header">
-        <p class="header">Rock Paper Scissors</p>
-    </div>
-
+    <div class="header" id="balls"> <p class="header">Rock Paper Scissors</p> </div>
 
     <div class="content">
-
-        <p style="font-size: 35px; margin-bottom: 0px;">Choose Your Weapon</p>
+        <p style="font-size: 35px; margin-bottom: 0px;" id="roundCheck">Choose Your Weapon</p>
         <p style="font-size: 25px; margin-bottom: 50px;">First To Score Five Points Wins The Game</p>
 
 
         <div style="gap: 75px;">
             <div style="flex-direction: column;">
-                <p style="font-size: 100px; margin: 0px; color: white;"> ❓ </p>
+                <p id="playerMove" style="font-size: 100px; margin: 0px; color: white;"> ❓ </p>
                 <p id="playerScore" style="font-size: 20px; margin-top: 0px;"> Player: 0</p>
             </div>
 
             <div style="flex-direction: column;">
-                <p style="font-size: 100px; margin: 0px; color: white;"> ❓ </p>
+                <p id="computerMove"style="font-size: 100px; margin: 0px; color: white;"> ❓ </p>
                 <p id="computerScore" style="font-size: 20px; margin-top: 0px;">Computer: 0</p>
             </div>
         </div>
 
         <div class="allButtons" style="gap: 30px; margin-top: 50px;">
 
-            <div class="button"> ✊ </div>
-            <div class="button"> ✋ </div>
-            <div class="button"> ✌️ </div>
+            <div class="button" id="button1"> ✊ </div>
+            <div class="button" id="button2"> ✋ </div>
+            <div class="button" id="button3"> ✌️ </div>
 
         </div>
 
+        <div id="restart"> Reset Score </div>
     </div>
 
     <div class="footer" style="font-size: 20px;"> Made By Jonathan Lee </div>
-
-
+    
 </body>
 </html>
