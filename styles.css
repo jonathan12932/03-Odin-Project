@@ -1,0 +1,58 @@
+html, body {
+
+    margin: 0px;
+    height: 100%;
+    font-family: 'Kanit';
+    color: white;
+}
+
+div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {   
+
+    font-size: 40px;
+    color: #f1ff70;
+    font-family: 'Press Start 2p', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #494A4F;
+    margin: 0px;
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 150px);
+    width: 100%;
+    background-color: #72737a;
+    justify-content: normal;
+    align-items: center;
+}
+
+.button {
+
+    font-size: 128px;
+    height: 200px;
+    width: 200px;
+    background-color: #494A4F;
+    color: yellow;
+    border-radius: 15px;
+}
+
+.footer {
+
+    height: 50px;
+    background-color: #494A4F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,5 +1,4 @@
-console.log(playRound(getComputerChoice(), "rock"));
-game();
+
 
 
 
