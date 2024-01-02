@@ -50,7 +50,7 @@ function buttonClick(type) {
         playerCount += 1;
         playerScore.textContent = "Player Score: " + playerCount;
 
-    } else {
+    } else if(check.substring(0, 8) == "You Lose") {
 
         computerCount += 1;
         computerScore.textContent = "Computer Score: " + computerCount;
